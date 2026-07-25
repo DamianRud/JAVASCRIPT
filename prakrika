@@ -1,0 +1,34 @@
+console.log("Привет, JavaScript!");
+
+let name = "Damian";
+let age = 16;
+let country = "Estonia";
+
+console.log(name);
+console.log(age);
+console.log(country);
+
+let price = 1000;
+let product = "iPhone";
+
+console.log(product);
+console.log(price);
+
+function buyProduct() {
+  alert("Товар добавлен в корзину!");
+}
+
+// let a = 10;
+// let b = 5;
+
+// console.log(a + b);
+
+// let a = 10;
+// let b = 5;
+
+// console.log(a - b);
+
+// let a = 10;
+// let b = 5;
+
+// console.log(a * b);
