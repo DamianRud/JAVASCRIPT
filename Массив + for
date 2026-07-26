@@ -1,0 +1,11 @@
+let games = ["CS2", "Minecraft", "GTA V"];
+
+for (let i = 0; i < games.length; i++) {
+  console.log(games[i]);
+}
+
+let phones = ["iPhone", "Samsung", "Xiaomi", "Google Pixel", "Nothing Phone"];
+
+for (let i = 0; i < phones.length; i++) {
+  console.log(phones[i]);
+}
