@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- <h1 id="title">JavaScript</h1>
+
+    <button id="btn">Изменить цвет</button> -->
+    <!-- 
+    <button id="btn">Создать текст</button> -->
+
+    <h1>Мой список покупок</h1>
+
+    <button id="btn">Добавить товар</button>
+
+    <ul id="list"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+let title = document.getElementById("title");
+let button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+  title.textContent = "Привет, JavaScript!";
+  title.style.color = "red";
+  title.style.backgroundColor = "black";
+  title.style.fontSize = "60px";
+});
+
+let button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+  let p = document.createElement("p");
+
+  p.textContent = "Я изучаю JavaScript!";
+
+  p.style.color = "green";
+
+  document.body.appendChild(p);
+});
+
+let button = document.getElementById("btn");
+let list = document.getElementById("list");
+
+button.addEventListener("click", function () {
+  let li = document.createElement("li");
+
+  li.textContent = "iPhone";
+
+  li.style.color = "black";
+
+  list.appendChild(li);
+});
