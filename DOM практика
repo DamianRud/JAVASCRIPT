@@ -1,0 +1,22 @@
+let result = square(5);
+
+console.log(square(5));
+
+let title = document.getElementById("title");
+
+title.textContent = "Добро пожаловать!";
+
+title.style.color = "blue";
+
+title.style.fontSize = "48px";
+
+title.style.backgroundColor = "gray";
+
+title.style.textAlign = "center";
+
+let title = document.getElementById("title");
+let button = document.getElementById("btn");
+
+button.onclick = function () {
+  title.textContent = "Привет Дамиан!";
+};
