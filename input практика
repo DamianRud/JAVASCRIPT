@@ -1,0 +1,38 @@
+let input = document.getElementById("name");
+let button = document.getElementById("btn");
+let result = document.getElementById("result");
+
+button.addEventListener("click", function () {
+  result.textContent = "Привет, " + input.value + "!";
+});
+if (input.value === "") {
+  result.textContent = "Введите имя!";
+} else {
+  result.textContent = "Привет, " + input.value + "!";
+}
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    
+
+    <input id="name" type="text" placeholder="Введите имя" />
+
+    <button id="btn">Поздороваться</button>
+
+    <h2 id="result"></h2>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
